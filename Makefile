@@ -323,3 +323,10 @@ else
   $(eval $(call flush))
  endif
 endif
+
+
+
+# To avoid "No targets.  Stop." message:
+.PHONY: -
+-:
+	@:
